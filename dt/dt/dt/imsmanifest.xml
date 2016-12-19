@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="rhl.495281.static" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>1.2</schemaversion>
+<imsmd:lom xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+<imsmd:general>
+<imsmd:title><imsmd:langstring xml:lang="en">dt</imsmd:langstring></imsmd:title>
+<imsmd:description><imsmd:langstring xml:lang="en"></imsmd:langstring></imsmd:description>
+</imsmd:general>
+</imsmd:lom>
+</metadata>
+<organizations default="z121d3ce8-ae97-4d84-892f-9fa1c99edb0e"><organization identifier="z121d3ce8-ae97-4d84-892f-9fa1c99edb0e"><title>dt</title><item identifier="z21df9012-4170-444c-b45a-3e1078ba18c9" identifierref="z9a2042b2-0a00-4057-ae89-03f7980f91a3"><title>Image Slide</title><adlcp:datafromlms>{"rubric": []}</adlcp:datafromlms></item><item identifier="z8c8ca077-50dd-41cc-aadf-81871e75265a" identifierref="zd46350a3-f932-4800-b9bf-d378703dd564"><title>video</title><adlcp:datafromlms>{"rubric": []}</adlcp:datafromlms></item><item identifier="z9aa62bde-fa22-402d-bd37-4f9fd2cd0d75" identifierref="z6bec2f70-3f21-45cf-b3d6-cc13eb99e198"><title>Daimler Trucks</title><adlcp:datafromlms>{"rubric": []}</adlcp:datafromlms></item><item identifier="z4af95732-f51c-4421-968a-e18f8de06ef9" identifierref="zbc3e9b3d-d4df-4242-96c3-1d491a14f76a"><title>Daimler Trucks Europe/ Latin America</title><adlcp:datafromlms>{"rubric": []}</adlcp:datafromlms></item><item identifier="z388853ab-7db9-468b-b431-57dbe4594aba" identifierref="z31929aa4-2f5a-417a-9e49-8e1b5c3179e8"><title>Daimler Trucks North America</title><adlcp:datafromlms>{"rubric": []}</adlcp:datafromlms></item></organization></organizations>
+<resources><resource adlcp:scormtype="sco" href="pages/2.html" identifier="z9a2042b2-0a00-4057-ae89-03f7980f91a3" type="webcontent"/><resource adlcp:scormtype="sco" href="pages/3.html" identifier="z6bec2f70-3f21-45cf-b3d6-cc13eb99e198" type="webcontent"/><resource adlcp:scormtype="sco" href="pages/1480343103.html" identifier="zd46350a3-f932-4800-b9bf-d378703dd564" type="webcontent"/><resource adlcp:scormtype="sco" href="pages/4.html" identifier="zbc3e9b3d-d4df-4242-96c3-1d491a14f76a" type="webcontent"/><resource adlcp:scormtype="sco" href="pages/5.html" identifier="z31929aa4-2f5a-417a-9e49-8e1b5c3179e8" type="webcontent"/></resources>
+</manifest>

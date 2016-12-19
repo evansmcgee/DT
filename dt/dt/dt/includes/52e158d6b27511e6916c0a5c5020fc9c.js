@@ -1,0 +1,1 @@
+requirejs.config({shim:{}}),define(["jquery","backbone","handlebars"],function(){});
