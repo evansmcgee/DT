@@ -195,9 +195,10 @@ input[type=range]::-webkit-slider-thumb {
 
 .custom-callout {
     padding: 10px;
-    margin: 20px 0;
+    margin: 1px 0;
     border: 1px solid #333333;
     border-left-width: 5px;
+    margin-bottom:10px;
 }
 
 .title {
