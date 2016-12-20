@@ -9,7 +9,7 @@
 #course_content {background-color: #999999 !important;
 background-image: url(../assets/img.png);
 background-position: top;
-background-size: 100% 12% !important;
+background-size: 100% 7% !important;
 background-repeat: no-repeat;}
 
 
@@ -183,7 +183,6 @@ input[type=range]::-webkit-slider-thumb {
 	padding: 1em; margin-top: 20px
 }
 
-
 #footer {
  background-color:#333333;
     position:fixed;
@@ -194,23 +193,20 @@ input[type=range]::-webkit-slider-thumb {
     margin-bottom:0px;
 }
 
-
 .custom-callout {
-    padding: 20px;
+    padding: 10px;
     margin: 20px 0;
     border: 1px solid #333333;
     border-left-width: 5px;
-
 }
 
 .title {
-  
     padding-right: 0.5em;
     background: rgba(51,51,51, 0.7);
     text-align:right;
     text-shadow: 2px 2px #333333;
 	font-size: 1.5pc;
 	font-weight: bold;
-    color: #999999 !important;
-    
+    color: #999999 !important; 
+    margin-bottom:21px;
 }
