@@ -110,6 +110,9 @@ function seektimeupdate(){
 		playpausebtn.className = "glyphicon glyphicon-repeat";
 	}
 }
+
+
+
 /*
 
 function updateslidercolor(){
