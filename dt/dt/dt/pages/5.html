@@ -13,6 +13,8 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.4/require.min.js"></script>
 		<script src="../bootstrap.js"></script>
 		<script src="../includes/scripts.js" type="text/javascript"></script>
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 		
 	</head>
@@ -23,15 +25,19 @@
 			<p class="title">Daimler Trucks North America</p>
 			<br>
 			<div id="borderobject">
-				<p class="custom-callout">
-						Daimler Trucks North America LLC, a Daimler company, is the largest heavy-duty truck manufacturer in North America and a leading producer of medium-duty trucks and specialized commercial vehicles.
-					</p>
-					<p class="custom-callout">
-						Headquartered in Portland, Oregon, Daimler Trucks North America manufactures, sells and services several renowned commercial vehicle brands.
-						</p>
-					<p class="custom-callout">
-						Through the company’s affiliates, Daimler Trucks North America is also a leading provider of heavy-and medium-duty diesel engines and other components. The company’s strategic partners in the North American commercial vehicles market include Daimler Truck Financial, TravelCenters of America and Petro Truck Centers.
-					</p>
+				<div class="custom-callout">
+					Daimler Trucks North America LLC, a Daimler company, is the largest heavy-duty truck manufacturer in North America and a leading producer of medium-duty trucks and specialized commercial vehicles.
+					<button type="button" data-toggle="collapse" data-target="#reveal01" id="morebutton" class="pull-right">More</button>
+				</div>
+
+				<div class="custom-callout collapse" id="reveal01">
+					Headquartered in Portland, Oregon, Daimler Trucks North America manufactures, sells and services several renowned commercial vehicle brands.&nbsp
+					<button type="button" data-toggle="collapse" data-target="#reveal02" id="morebutton" class="pull-right">More</button>
+				</div>
+
+				<div class="custom-callout collapse" id="reveal02">
+					Through the company’s affiliates, Daimler Trucks North America is also a leading provider of heavy-and medium-duty diesel engines and other components. The company’s strategic partners in the North American commercial vehicles market include Daimler Truck Financial, TravelCenters of America and Petro Truck Centers.
+				</div>
 			</div>
 			</div>
 

@@ -211,3 +211,10 @@ input[type=range]::-webkit-slider-thumb {
     color: #999999 !important; 
     margin-bottom:21px;
 }
+
+
+#morebutton {
+   color:#FFFFFF  ;
+   background:#00ADEF;
+   text-align:right;
+}
