@@ -192,7 +192,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .custom-callout {
-    padding: 1px;
+    padding: 2px;
     margin: 1px 0;
     border: 1px solid #333333;
     border-left-width: 5px;
@@ -215,7 +215,6 @@ input[type=range]::-webkit-slider-thumb {
    color:#FFFFFF  ;
    background:#003366;
    font-size: 14px;
-   margin:0px !important;
 }
 #morebutton:hover{
    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1)
@@ -234,5 +233,7 @@ input[type=range]::-webkit-slider-thumb {
 
 #inner-text{
     margin-left:9px;
-    margin-bottom:1px;
+font-family:"Arial" !important;
+font-size:12pt !important; 
+color:#333 !important;
 }
