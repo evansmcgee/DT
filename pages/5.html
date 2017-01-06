@@ -29,17 +29,19 @@
 			<br>
 			<div id="borderobject">
 				<div class="custom-callout">
-					<p>Daimler Trucks North America LLC, is the largest heavy-duty truck manufacturer in North America and a leading producer of medium-duty trucks and specialized commercial vehicles.<br>
-					<button type="button" data-toggle="collapse" data-target="#reveal01" id="morebutton" class="pull-right">More &nbsp<span class="glyphicon glyphicon-menu-down"></span></button><br></p>
+					<p>Daimler Trucks North America LLC, is the largest heavy-duty truck manufacturer in North America and a leading producer of medium-duty trucks and specialized commercial vehicles.<br></p>
 				</div>
 
-				<div class="custom-callout collapse" id="reveal01">
-					<p>Headquartered in Portland, Oregon, Daimler Trucks North America manufactures, sells and services renowned commercial vehicle brands.<br>
-					<button type="button" data-toggle="collapse" data-target="#reveal02" id="morebutton" class="pull-right">More &nbsp<span class="glyphicon glyphicon-menu-down"></span></button><br></p>
+				<div class="custom-callout">
+				    <div id="1">
+                    <button type="button" data-toggle="collapse" data-target=".reveal01" class="morebutton" onclick="hidebutton()">More &nbsp<span class="glyphicon glyphicon-menu-down"></span></button></div>
+					<p id="inner-text" class="collapse reveal01">Headquartered in Portland, Oregon, Daimler Trucks North America manufactures, sells and services renowned commercial vehicle brands.<br></p>
 				</div>
 
-				<div class="custom-callout collapse" id="reveal02">
-					<p>Through the company’s affiliates, Daimler Trucks North America is also a leading provider of heavy-and medium-duty diesel engines and other components.<br></p>
+				<div class="custom-callout collapse reveal01">
+				    <div id="2">
+				    <button type="button" data-toggle="collapse" data-target=".reveal02" class="morebutton" onclick="hidebutton2()">More &nbsp<span class="glyphicon glyphicon-menu-down"></span></button></div>
+					<p id="innertext" class="collapse reveal02">Through the company’s affiliates, Daimler Trucks North America is also a leading provider of heavy-and medium-duty diesel engines and other components.<br></p>
 				</div>
 			</div>
 			</div>
